@@ -29,7 +29,7 @@ class EngineTestCase(unittest.TestCase):
 
     def test_capulet_engine_needs_service(self):
         current_mileage = 35000
-        last_service_mileage = 15000
+        last_service_mileage = 4000
         capulet_engine = CapuletEngine(current_mileage, last_service_mileage)
         self.assertTrue(capulet_engine.needs_service())
 
